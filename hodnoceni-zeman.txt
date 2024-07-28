@@ -1,0 +1,13 @@
+Ceníme práci na projektu! 🏆 Prohlédli jsme si kód a máme k němu následující poznámky:
+
+1. Pojmenování identifikátorů - Metoda vypsatVsechny() nic nevypisuje, pojmenování je tedy nepřesné. Například getPojisteni() by bylo výstižnější.
+2. Dodržení principů SRP a SoC - ok
+3. Vhodný výběr datových typů - ok
+4. Formátování kódu - Někde mezery za závorky jsou, jinde ne, to samé u prádných řádků. I na takové věci je nutné si dávat pozor.
+5. Duplicitní kód a nekonečné cykly - Místo nekonečných cyklů while (true) by bylo pro přehlednost lepší použít konkrétní podmínku. (např. while (volba != 4))
+6. Validace vstupních dat - ok, ovšem když už používám regex, tak mohu využít takový výraz, který je pro telefonní číslo přímo určený a dovolí tak například i znak + pro mezinárodní předvolbu.
+7. Logičnost a složitost - Do try bloku v metodě main by stačilo zabalit pouze řádek 25. Obecně se snažíme do try bloku dávat co nejmenší část kódu, abychom vůbec věděli, jakou chybu "chytáme".
+8. Komentáře - ok
+9. Celkové hodnocení - Kód splňuje zadání a je dobře strukturovaný. Doporučil bych odstranění nekonečných cyklů.
+
+Doporučujeme případné výtky v kódu opravit, abyste jej mohli pak prezentovat budoucímu zaměstnavateli v co nejlepší kvalitě. Pokud byste potřebovali s čímkoli pomoci, naplánujte si s námi konzultaci, rádi vám poradíme!
